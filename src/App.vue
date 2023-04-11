@@ -1,12 +1,22 @@
 <script>
+import HeaderTop from './components/HeaderTop.vue';
+import HeaderBottom from './components/HeaderBottom.vue';
+export default {
+  name: 'App',
+  components: {
+    HeaderTop,
+    HeaderBottom
+  }
+}
 
 </script>
 
 <template>
-  <h1>NAVBAR</h1>
   <header>
     <!--header top -->
+    <HeaderTop></HeaderTop>
     <!--header bottom -->
+    <HeaderBottom></HeaderBottom>
   </header>
 
 
@@ -30,8 +40,4 @@
 <style lang="scss">
 @use './styles/general.scss' as *;
 @use './styles/partials/variables' as *;
-
-h1 {
-  color: $ecstacy-cube-color;
-}
 </style>
