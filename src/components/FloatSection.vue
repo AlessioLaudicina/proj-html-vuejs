@@ -16,7 +16,7 @@ export default {
                 </div>
 
                 <div class="small-column">
-                    <h1 class="title-column">Lorem ipsum dolor sit amet.</h1>
+                    <h1 class="title-column">Increase Brand <br> Awareness</h1>
                     <p class="p-column">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, officiis.</p>
 
 
@@ -32,7 +32,7 @@ export default {
             <div class="section_container">
 
                 <div class="big-column">
-                    <h1 class="title-column"> Lorem ipsum dolor sit amet.</h1>
+                    <h1 class="title-column"> In-House Sales <br> Training</h1>
                     <p class="p-column">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nisi, quidem</p>
 
                 </div>
@@ -57,7 +57,7 @@ export default {
                 </div>
 
                 <div class="small-column">
-                    <h1 class="title-column">Lorem ipsum dolor sit amet.</h1>
+                    <h1 class="title-column">Harness Your <br> Social Proof </h1>
                     <p class="p-column">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, officiis.</p>
 
 
