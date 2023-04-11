@@ -8,8 +8,9 @@ export default {
 <template>
     <div class="jumbotron jumbotron-fluid h-100">
         <div class="container">
-            <h1 class="display-4 text-white">UnlockYour Online <br>Growth Potential</h1>
-            <p class="lead text-white">This is a simple hero unit, a simple jumbotron-style component for calling extra
+            <h1 class="display-4 text-white fw-bolder">UnlockYour Online <br>Growth Potential</h1>
+            <p class="lead text-white">This is a simple hero unit, a simple jumbotron-style component, <br> for calling
+                extra
                 attention to
                 featured content or information.</p>
 
@@ -34,7 +35,7 @@ export default {
     .my-button {
         background-color: $white-cube-color;
         color: $black-cube-color;
-        ;
+
     }
 
 }
