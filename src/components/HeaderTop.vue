@@ -17,7 +17,7 @@ export default {
                 <li> <a href="#">About</a></li>
                 <li><a href="#">Blog</a></li>
                 <li><a href="#"></a>(555) 802-1234</li>
-                <li><a href="#"></a></li>
+                <li><a href="#"><button class="btn">Join Us</button></a></li>
             </ul>
         </div>
 
@@ -29,6 +29,8 @@ export default {
 
 .My-navbar {
     display: flex;
+    justify-content: center;
+    align-items: center;
     padding: 10px;
 
     ul {
