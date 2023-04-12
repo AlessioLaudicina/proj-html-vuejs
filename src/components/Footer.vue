@@ -6,7 +6,7 @@ export default {
 </script>
 
 <template>
-    <footer>
+    <footer class="pt-5">
         <div class="container">
             <div class="row">
                 <div class="col-xl-3 col-lg-4 col-md-6">
@@ -82,7 +82,7 @@ export default {
             <div class="d-flex justify-content-center">
 
                 <div class="copyright">
-                    <p>Developed and maintained by <a href="#" target="_blank">Alessio Laudicina</a></p>
+                    <p>Developed by <a href="#" target="_blank">Alessio Laudicina</a></p>
                 </div>
             </div>
         </div>
