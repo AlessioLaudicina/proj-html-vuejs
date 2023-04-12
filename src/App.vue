@@ -3,13 +3,17 @@ import HeaderTop from './components/HeaderTop.vue';
 import HeaderBottom from './components/HeaderBottom.vue';
 import FloatSection from './components/Floatsection.vue';
 import BrandSection from './components/BrandSection.vue';
+import CardsSection from './components/CardsSection.vue';
+import CtaSection from './components/CtaSection.vue';
 export default {
   name: 'App',
   components: {
     HeaderTop,
     HeaderBottom,
     FloatSection,
-    BrandSection
+    BrandSection,
+    CardsSection,
+    CtaSection,
   }
 }
 
@@ -30,7 +34,9 @@ export default {
     <!-- brands section -->
     <BrandSection></BrandSection>
     <!-- cards section -->
+    <CardsSection></CardsSection>
     <!-- call to action  section -->
+    <CtaSection></CtaSection>
     <!-- awards section -->
     <!-- marketing resources section -->
     <!-- contact  section -->

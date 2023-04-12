@@ -22,14 +22,19 @@ export default {
 
 
         </div>
+        <div class="container">
+            <div class="shadow p-3 rounded d-flex justify-content-around align-items-center"
+                style="margin: 100px 0; max-height: 75px;">
+                <img src="../assets/images/marketing-expert-cta.png" style="max-height: 50px; border-radius: 100%;">
+                <p> <strong>Sandy Reiff </strong><br> <span>Marketing Expert</span></p>
+                <h5>Drive Leads and Sales with Avada</h5>
+                <button class="orangeBtn rounded">(555) 802-1234</button>
 
-        <div class="shadow p-3 m-5 rounded d-flex justify-content-around align-items-center">
-            <img src="../assets/images/marketing-expert-cta.png" style="max-height: 50px; border-radius: 100%;">
-            <p> <strong>Sandy Reiff </strong><br> <span>Marketing Expert</span></p>
-            <h4>Drive Leads and Sales with Avada</h4>
-            <button class="orangeBtn rounded">(555) 802-1234</button>
+            </div>
 
         </div>
+
+
 
 
     </div>
