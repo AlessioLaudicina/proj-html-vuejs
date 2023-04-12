@@ -9,13 +9,13 @@ export default {
     <div class="container">
         <section class="container">
             <div class="section_container">
-                <div class="big-column">
+                <div>
 
                     <img src="../assets/images/yoga_demo-400x300.jpg" alt="">
 
                 </div>
 
-                <div class="small-column d-flex flex-column">
+                <div class=" d-flex flex-column">
                     <h1 class="title-column">Increase Brand <br> Awareness</h1>
                     <p class="p-column">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, officiis.</p>
                     <button class="orangeBtn rounded">Get a Consulation</button>
@@ -32,7 +32,7 @@ export default {
 
             <div class="section_container">
 
-                <div class="big-column d-flex flex-column">
+                <div class=" d-flex flex-column">
                     <h1 class="title-column"> In-House Sales <br> Training</h1>
                     <p class="p-column">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nisi, quidem </p>
                     <button class="orangeBtn rounded">Get a Consulation</button>
@@ -40,7 +40,7 @@ export default {
 
                 </div>
 
-                <div class="small-column">
+                <div>
 
                     <img src="../assets/images/yoga_demo-400x300.jpg" alt="">
 
@@ -53,13 +53,13 @@ export default {
 
         <section class="container">
             <div class="section_container">
-                <div class="big-column">
+                <div>
 
                     <img src="../assets/images/yoga_demo-400x300.jpg" alt="">
 
                 </div>
 
-                <div class="small-column d-flex flex-column">
+                <div class="d-flex flex-column">
 
                     <h1 class="title-column">Harness Your <br> Social Proof </h1>
                     <p class="p-column">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, officiis.</p>

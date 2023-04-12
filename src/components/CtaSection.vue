@@ -11,10 +11,10 @@ export default {
 
 <template>
     <div class="my-container">
-        <div class="container d-flex justify-content-center">
+        <div class="container d-flex justify-content-center flex-wrap">
             <div class="section_container py-5">
 
-                <div class="big-column d-flex flex-column">
+                <div class=" d-flex flex-column">
                     <h1 class="title-column text-left"> We Boost Our <br> Clients' Bottom Line <br> by Optimizing Their <br>
                         Growth
                         Potential.</h1>
@@ -24,7 +24,7 @@ export default {
 
                 </div>
 
-                <div class="small-column">
+                <div>
 
                     <img src="../assets/images/we-boost-our-clients-400x366.jpg" alt="" class="rounded">
 
@@ -32,29 +32,32 @@ export default {
                 </div>
 
             </div>
+            <div class="d-flex justify-content-center">
+                <div class="title">
+                    <h3>We Build Relationship</h3>
+                    <span class="p-column">Lorem ipsum dolor sit amet consectetur <br> adipisicing elit. Numquam
+                        consequuntur
+                        dolorum
+                        eligendi officia reiciendis nostrum.</span>
+                    <h3>Propriarty Process</h3>
+                    <span class="p-column">Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam consequuntur
+                        dolorum
+                        eligendi officia reiciendis nostrum.</span>
+                </div>
+                <div class="icon">
+                    <h4>Accountability</h4>
+                    <p class="p-column"> Numquam consequuntur dolorum eligendi officia reiciendis nostrum.</p>
+
+                    <h4>Accountability</h4>
+                    <p class="p-column"> Numquam consequuntur dolorum eligendi officia reiciendis nostrum.</p>
+
+
+                </div>
+            </div>
 
         </div>
 
-        <div class="d-flex justify-content-center">
-            <div class="title">
-                <h3>We Build Relationship</h3>
-                <span class="p-column">Lorem ipsum dolor sit amet consectetur <br> adipisicing elit. Numquam consequuntur
-                    dolorum
-                    eligendi officia reiciendis nostrum.</span>
-                <h3>Propriarty Process</h3>
-                <span class="p-column">Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam consequuntur dolorum
-                    eligendi officia reiciendis nostrum.</span>
-            </div>
-            <div class="icon">
-                <h4>Accountability</h4>
-                <p class="p-column"> Numquam consequuntur dolorum eligendi officia reiciendis nostrum.</p>
 
-                <h4>Accountability</h4>
-                <p class="p-column"> Numquam consequuntur dolorum eligendi officia reiciendis nostrum.</p>
-
-
-            </div>
-        </div>
         <AwardSection></AwardSection>
 
     </div>
@@ -78,15 +81,6 @@ export default {
 
 }
 
-.small-column {
-    width: 50%;
-
-
-}
-
-.big-column {
-    width: 50%;
-}
 
 
 

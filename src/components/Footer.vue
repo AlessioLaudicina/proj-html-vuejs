@@ -12,9 +12,9 @@ export default {
                 <div class="col-xl-3 col-lg-4 col-md-6">
                     <div>
                         <h5>Grown Your Online Business <br> Strategically, and Improve <br> Customer Retention. </h5>
-                        <p class="mb-30 footer-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad soluta
-                            facilis
-                            eos quia optio iusto odit atque eum tempore, quisquam officiis vero veniam hic,</p>
+                        <div class="icons">
+
+                        </div>
                     </div>
                 </div>
                 <div class="col-xl-2 offset-xl-1 col-lg-2 col-md-6">
@@ -22,16 +22,16 @@ export default {
                         <h6>Services</h6>
                         <ul class="list-unstyled">
                             <li>
-                                <a href="#" class="text-decoration-none">Home</a>
+                                Home
                             </li>
                             <li>
-                                <a href="#" class="text-decoration-none">About Us</a>
+                                About Us
                             </li>
                             <li>
-                                <a href="#" class="text-decoration-none">Service</a>
+                                Service
                             </li>
                             <li>
-                                <a href="#" class="text-decoration-none">Contact</a>
+                                Contact
                             </li>
                         </ul>
                     </div>
@@ -41,16 +41,22 @@ export default {
                         <h6>Resource</h6>
                         <ul class="list-unstyled">
                             <li>
-                                <a href="#" class="text-decoration-none">Marketing</a>
+                                Marketing Plan
                             </li>
                             <li>
-                                <a href="#" class="text-decoration-none">Branding</a>
+                                Sales Development
                             </li>
                             <li>
-                                <a href="#" class="text-decoration-none">Web Design</a>
+                                Digital Marketing
                             </li>
                             <li>
-                                <a href="#" class="text-decoration-none">Graphics Design</a>
+                                Pricing
+                            </li>
+                            <li>
+                                Why Us
+                            </li>
+                            <li>
+                                Case Studies
                             </li>
                         </ul>
                     </div>
@@ -60,16 +66,14 @@ export default {
                         <h6>Company</h6>
                         <ul class="list-unstyled">
                             <li>
-                                <p>+017367234</p>
+                                Who we are
                             </li>
                             <li>
-                                <p><a href="#">JhoneDoe@gmail.com</a>
-                                </p>
+                                Contact Us
+
                             </li>
                             <li>
-                                <p>New York
-                                    City in New York State
-                                    New York City comprises 5 boroughs sitting where the Hudson River meets th</p>
+                                Carriers
                             </li>
                         </ul>
                     </div>
@@ -85,8 +89,20 @@ export default {
     </footer>
 </template>
 
-<style scooped>
-a {
-    color: black;
+<style lang="scss" scooped >
+@use '../styles/partials/variables' as *;
+
+ul {
+    padding-top: 10px;
+
+    li {
+
+        padding: 5px;
+        cursor: pointer;
+    }
+
+    li:hover {
+        color: $ecstacy-cube-color;
+    }
 }
 </style>
