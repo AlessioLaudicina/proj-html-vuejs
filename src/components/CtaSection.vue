@@ -1,6 +1,10 @@
 <script>
+import AwardSection from './AwardSection.vue';
 export default {
-    name: 'CtaSection'
+    name: 'CtaSection',
+    components: {
+        AwardSection
+    }
 }
 
 </script>
@@ -28,24 +32,30 @@ export default {
                 </div>
 
             </div>
+
         </div>
 
         <div class="d-flex justify-content-center">
             <div class="title">
                 <h3>We Build Relationship</h3>
-                <span class="p-column">Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam consequuntur dolorum
+                <span class="p-column">Lorem ipsum dolor sit amet consectetur <br> adipisicing elit. Numquam consequuntur
+                    dolorum
                     eligendi officia reiciendis nostrum.</span>
                 <h3>Propriarty Process</h3>
-                <p class="p-column">Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam consequuntur dolorum
-                    eligendi officia reiciendis nostrum.</p>
+                <span class="p-column">Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam consequuntur dolorum
+                    eligendi officia reiciendis nostrum.</span>
             </div>
             <div class="icon">
+                <h4>Accountability</h4>
+                <p class="p-column"> Numquam consequuntur dolorum eligendi officia reiciendis nostrum.</p>
+
                 <h4>Accountability</h4>
                 <p class="p-column"> Numquam consequuntur dolorum eligendi officia reiciendis nostrum.</p>
 
 
             </div>
         </div>
+        <AwardSection></AwardSection>
 
     </div>
 </template>

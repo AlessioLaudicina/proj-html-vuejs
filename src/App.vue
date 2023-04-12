@@ -5,6 +5,8 @@ import FloatSection from './components/Floatsection.vue';
 import BrandSection from './components/BrandSection.vue';
 import CardsSection from './components/CardsSection.vue';
 import CtaSection from './components/CtaSection.vue';
+import TestimonialSection from './components/TestimonialSection.vue'
+import Footer from './components/Footer.vue';
 export default {
   name: 'App',
   components: {
@@ -14,6 +16,8 @@ export default {
     BrandSection,
     CardsSection,
     CtaSection,
+    TestimonialSection,
+    Footer,
   }
 }
 
@@ -38,6 +42,8 @@ export default {
     <!-- call to action  section -->
     <CtaSection></CtaSection>
     <!-- awards section -->
+    <!-- testimonial section -->
+    <TestimonialSection></TestimonialSection>
     <!-- marketing resources section -->
     <!-- contact  section -->
 
@@ -45,6 +51,7 @@ export default {
 
   <footer>
     <!-- footer top -->
+    <Footer></Footer>
     <!-- footer bottom -->
   </footer>
 </template>

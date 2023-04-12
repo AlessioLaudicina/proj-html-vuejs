@@ -89,17 +89,6 @@ export default {
 
 }
 
-.small-column {
-    width: 40%;
-
-
-}
-
-.big-column {
-    width: 60%;
-}
-
-
 
 
 
