@@ -2,12 +2,14 @@
 import HeaderTop from './components/HeaderTop.vue';
 import HeaderBottom from './components/HeaderBottom.vue';
 import FloatSection from './components/Floatsection.vue';
+import BrandSection from './components/BrandSection.vue';
 export default {
   name: 'App',
   components: {
     HeaderTop,
     HeaderBottom,
-    FloatSection
+    FloatSection,
+    BrandSection
   }
 }
 
@@ -26,6 +28,7 @@ export default {
     <!-- float section -->
     <FloatSection></FloatSection>
     <!-- brands section -->
+    <BrandSection></BrandSection>
     <!-- cards section -->
     <!-- call to action  section -->
     <!-- awards section -->

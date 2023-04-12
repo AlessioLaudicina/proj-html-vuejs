@@ -57,6 +57,7 @@ export default {
                 </div>
 
                 <div class="small-column">
+
                     <h1 class="title-column">Harness Your <br> Social Proof </h1>
                     <p class="p-column">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, officiis.</p>
 
