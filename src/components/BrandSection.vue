@@ -25,9 +25,9 @@ export default {
 
         <div class="shadow p-3 m-5 rounded d-flex justify-content-around align-items-center">
             <img src="../assets/images/marketing-expert-cta.png" style="max-height: 50px; border-radius: 100%;">
-            <p>Sandy Reiff <br> <span>Marketing Expert</span></p>
+            <p> <strong>Sandy Reiff </strong><br> <span>Marketing Expert</span></p>
             <h4>Drive Leads and Sales with Avada</h4>
-            <button>(555) 802-1234</button>
+            <button class="orangeBtn rounded">(555) 802-1234</button>
 
         </div>
 

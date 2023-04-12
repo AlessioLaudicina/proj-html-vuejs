@@ -15,9 +15,10 @@ export default {
 
                 </div>
 
-                <div class="small-column">
+                <div class="small-column d-flex flex-column">
                     <h1 class="title-column">Increase Brand <br> Awareness</h1>
                     <p class="p-column">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, officiis.</p>
+                    <button class="orangeBtn rounded">Get a Consulation</button>
 
 
                 </div>
@@ -31,9 +32,11 @@ export default {
 
             <div class="section_container">
 
-                <div class="big-column">
+                <div class="big-column d-flex flex-column">
                     <h1 class="title-column"> In-House Sales <br> Training</h1>
-                    <p class="p-column">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nisi, quidem</p>
+                    <p class="p-column">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nisi, quidem </p>
+                    <button class="orangeBtn rounded">Get a Consulation</button>
+
 
                 </div>
 
@@ -56,10 +59,11 @@ export default {
 
                 </div>
 
-                <div class="small-column">
+                <div class="small-column d-flex flex-column">
 
                     <h1 class="title-column">Harness Your <br> Social Proof </h1>
                     <p class="p-column">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, officiis.</p>
+                    <button class="orangeBtn rounded">Get a Consulation</button>
 
 
                 </div>
@@ -87,7 +91,7 @@ export default {
 
 .small-column {
     width: 40%;
-    padding-top: 20px;
+
 
 }
 
@@ -96,14 +100,14 @@ export default {
 }
 
 
-.title-column {
-    margin: 30px;
-}
+
+
+
 
 .p-column {
     color: black;
     line-height: 1.5em;
     font-size: 20px;
-    margin: 0px 30px;
+
 }
 </style>
