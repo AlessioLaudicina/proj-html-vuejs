@@ -66,7 +66,7 @@ export default {
         padding-top: 50px;
         position: relative;
         bottom: -60px;
-        box-shadow: 1px 5px #5d5d5d;
+
     }
 
 

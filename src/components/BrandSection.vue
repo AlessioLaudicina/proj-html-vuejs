@@ -28,7 +28,9 @@ export default {
                 <img src="../assets/images/marketing-expert-cta.png" style="max-height: 50px; border-radius: 100%;">
                 <p> <strong>Sandy Reiff </strong><br> <span>Marketing Expert</span></p>
                 <h5>Drive Leads and Sales with Avada</h5>
-                <button class="orangeBtn rounded">(555) 802-1234</button>
+                <button class="lightorangeBtn rounded">
+                    <fa icon="fa-solid fa-phone" /> (555) 802-1234
+                </button>
 
             </div>
 

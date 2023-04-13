@@ -25,4 +25,8 @@ export default {
     margin: 100px 0;
 
 }
+
+img:hover {
+    opacity: 0.8;
+}
 </style>

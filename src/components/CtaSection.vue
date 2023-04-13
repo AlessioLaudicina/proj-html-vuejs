@@ -40,7 +40,7 @@ export default {
                         consequuntur
                         dolorum
                         eligendi officia reiciendis nostrum.</span>
-                    <h3>Propriarty Process</h3>
+                    <h3 class="pt-4">Propriarty Process</h3>
                     <span class="p-column">Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> Numquam
                         consequuntur
                         dolorum
