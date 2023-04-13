@@ -18,8 +18,9 @@ export default {
                     <h1 class="title-column text-left"> We Boost Our <br> Clients' Bottom Line <br> by Optimizing Their <br>
                         Growth
                         Potential.</h1>
-                    <p class="p-column">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nisi, quidem </p>
-                    <button class="orangeBtn rounded">Get a Consulation</button>
+                    <p class="p-column">Lorem ipsum dolor, sit amet consectetur adipisicing elit. <br> Nisi, quidem Lorem
+                        ipsum dolor sit amet. <br> Lorem ipsum dolor sit amet.</p>
+                    <button class="orangeBtn rounded mb-4">Why Work with Us</button>
 
 
                 </div>

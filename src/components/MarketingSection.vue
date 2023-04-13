@@ -15,16 +15,16 @@ export default {
         <div class="d-flex justify-content-center align-items-center pt-3">
             <div class="m-3"> <!--Aggiungere un v-for -->
                 <img src="../assets/images/blog-posts-3-400x267.jpg" alt="">
-                <h4>Marketing Tips and Tricks <br> For Your Website</h4>
+                <h4 class="pt-3">Marketing Tips and Tricks <br> For Your Website</h4>
             </div>
             <div class="m-3">
                 <img src="../assets/images/blog-posts-4-400x267.jpg" alt="">
-                <h4>Marketing Tips and Tricks <br> For Your Website</h4>
+                <h4 class="pt-3">How to write Stunning Blog <br> Post Titles</h4>
 
             </div>
             <div class="m-3">
                 <img src="../assets/images/blog-posts-5-400x267.jpg" alt="">
-                <h4>Marketing Tips and Tricks <br> For Your Website</h4>
+                <h4 class="pt-3">Tecnique to Reduce Facebook <br> Adv Spend</h4>
 
             </div>
         </div>

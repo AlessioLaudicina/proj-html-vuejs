@@ -44,7 +44,7 @@ export default {
 
         </div>
         <div class="d-flex justify-content-center my-3">
-            <button class="orangeBtn rounded">Read More Cases Studies</button>
+            <button class="orangeBtn rounded pb-3">Read More Cases Studies</button>
         </div>
     </div>
 </template>
@@ -54,5 +54,9 @@ export default {
 
 .card-text {
     font-size: 16px;
+}
+
+.card-img-top:hover {
+    opacity: 0.8;
 }
 </style>
