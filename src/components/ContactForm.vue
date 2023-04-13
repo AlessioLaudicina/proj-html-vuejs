@@ -46,7 +46,6 @@ export default {
 <style lang="scss" scooped>
 .card {
     width: 400px;
-
     padding: 30px;
 
     .profile {

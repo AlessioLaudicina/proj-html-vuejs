@@ -42,5 +42,10 @@ export default {
     margin: 0 auto;
     padding: 50px 0;
 
+
+}
+
+img:hover {
+    opacity: 0.8;
 }
 </style>
