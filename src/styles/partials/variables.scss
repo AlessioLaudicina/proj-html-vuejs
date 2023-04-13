@@ -49,3 +49,18 @@ $starship-material-color: #ece046;
     background-color: $tango-material-color;
 
 }
+
+
+.lightorangeBtn {
+    background-color: #ffe7da;
+
+    color: $ecstacy-cube-color;
+    border: none;
+    padding: 10px;
+}
+
+.lightorangeBtn:hover {
+    background-color: $tango-material-color;
+    color: white;
+
+}

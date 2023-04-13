@@ -19,9 +19,8 @@ export default {
                 <li><a href="#">
                         <fa icon="fa-solid fa-phone" />
                     </a> (555) 802-1234</li>
-                <li> <a href="#"><button class="btn">
-                            Join
-                            Us
+                <li> <a href="#"><button class="lightorangeBtn rounded">
+                            Free Quote
                         </button></a></li>
             </ul>
         </div>
