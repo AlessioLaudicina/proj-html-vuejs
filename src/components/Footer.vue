@@ -24,8 +24,8 @@ export default {
                         </div>
                     </div>
                 </div>
-                <div class="col-xl-2 offset-xl-1 col-lg-2 col-md-6">
-                    <div class="">
+                <div class="col-xl-2  col-lg-3 col-md-6" style="margin-left: 100px;">
+                    <div>
                         <h6>Services</h6>
                         <ul class="list-unstyled">
                             <li>
