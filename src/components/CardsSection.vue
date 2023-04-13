@@ -43,7 +43,7 @@ export default {
             </div>
 
         </div>
-        <div class="d-flex justify-content-center my-3">
+        <div class="d-flex justify-content-center mt-3" style="margin-bottom: 50px;">
             <button class="orangeBtn rounded pb-3">Read More Cases Studies</button>
         </div>
     </div>
