@@ -17,7 +17,8 @@ export default {
 
                 <div class=" d-flex flex-column title">
                     <h1 class="title-column">Increase Brand <br> Awareness</h1>
-                    <p class="p-column">Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> Aliquam, officiis.</p>
+                    <p class="p-column">Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> Aliquam, officiis.
+                        Lorem ipsum dolor sit, amet consectetur <br> adipisicing elit. Aspernatur, impedit!</p>
                     <button class="orangeBtn rounded">Get a Consulation</button>
 
 
@@ -34,7 +35,8 @@ export default {
 
                 <div class=" d-flex flex-column title ">
                     <h1 class="title-column"> In-House Sales <br> Training</h1>
-                    <p class="p-column">Lorem ipsum dolor, sit amet consectetur adipisicing elit. <br> Nisi, quidem </p>
+                    <p class="p-column">Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> Aliquam, officiis.
+                        Lorem ipsum dolor sit, <br> amet consectetur adipisicing elit. Aspernatur, impedit!</p>
                     <button class="orangeBtn rounded">Get a Consulation</button>
 
 
@@ -62,7 +64,9 @@ export default {
                 <div class="d-flex flex-column title">
 
                     <h1 class="title-column">Harness Your <br> Social Proof </h1>
-                    <p class="p-column">Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> Aliquam, officiis.</p>
+                    <p class="p-column text-wrap">Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> Aliquam,
+                        officiis.
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. <br> Aspernatur, impedit!</p>
                     <button class="orangeBtn rounded">Get a Consulation</button>
 
 
@@ -90,7 +94,7 @@ export default {
 
     img {
         max-width: 400px;
-        max-height: 250;
+
     }
 
     .title {

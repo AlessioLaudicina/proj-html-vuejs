@@ -16,8 +16,13 @@ export default {
                 <li> <a href="#">Case Studies</a></li>
                 <li> <a href="#">About</a></li>
                 <li><a href="#">Blog</a></li>
-                <li><a href="#"></a>(555) 802-1234</li>
-                <li><a href="#"><button class="btn">Join Us</button></a></li>
+                <li><a href="#">
+                        <fa icon="fa-solid fa-phone" />
+                    </a> (555) 802-1234</li>
+                <li> <a href="#"><button class="btn">
+                            Join
+                            Us
+                        </button></a></li>
             </ul>
         </div>
 

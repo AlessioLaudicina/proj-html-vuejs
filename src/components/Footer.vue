@@ -12,7 +12,14 @@ export default {
                 <div class="col-xl-3 col-lg-4 col-md-6">
                     <div>
                         <h5>Grown Your Online Business <br> Strategically, and Improve <br> Customer Retention. </h5>
-                        <div class="icons">
+                        <div class="pt-3 d-flex justify-content-between align-items-center">
+                            <fa :icon="['fab', 'facebook']" class="icon" />
+                            <fa :icon="['fab', 'twitter']" class="icon" />
+                            <fa :icon="['fab', 'instagram']" class="icon" />
+                            <fa :icon="['fab', 'linkedin']" class="icon" />
+                            <fa :icon="['fab', 'tiktok']" class="icon" />
+
+
 
                         </div>
                     </div>
@@ -79,10 +86,16 @@ export default {
                     </div>
                 </div>
             </div>
-            <div class="d-flex justify-content-center">
+            <div class="d-flex justify-content-between" style="padding: 50px 0;">
 
                 <div class="copyright">
                     <p>Developed by <a href="#" target="_blank">Alessio Laudicina</a></p>
+                </div>
+                <div class="copyright">
+                    <p>Call Us (555)802-344</p>
+                </div>
+                <div class="copyright">
+                    <p>info@business.gmail.com</p>
                 </div>
             </div>
         </div>
@@ -104,5 +117,7 @@ ul {
     li:hover {
         color: $ecstacy-cube-color;
     }
+
+
 }
 </style>

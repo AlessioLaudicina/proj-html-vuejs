@@ -16,7 +16,9 @@ export default {
 
 
             <p class="lead">
-                <a class="btn  my-button" href="#" role="button">Our Services</a>
+                <a class="btn  my-button" href="#" role="button">Our Services
+                    <fa icon="fa-solid fa-arrow-right" />
+                </a>
             </p>
 
         </div>
@@ -35,6 +37,7 @@ export default {
     .my-button {
         background-color: $white-cube-color;
         color: $black-cube-color;
+        padding: 10px;
 
     }
 
