@@ -9,7 +9,7 @@ export default {
     <div class="card rounded bg-white">
         <form class="d-flex flex-column justify-content-center align-items-center">
             <h5 class="text-center">Richard Madsen</h5>
-            <img src="../assets/images/marketing-consultant-expert.jpg" alt="marketing-img" class="rounded-circle">
+            <img src="../assets/images/marketing-consultant-expert.jpg" alt="marketing-img" class="rounded-circle profile">
             <span class="text-center">Marketing Expert</span>
             <span class="text-center" style="color: #f76210;">
                 <fa icon="fa-solid fa-phone" />
@@ -46,7 +46,7 @@ export default {
 
     padding: 30px;
 
-    img {
+    .profile {
         max-height: 50px;
         max-width: 50px;
     }

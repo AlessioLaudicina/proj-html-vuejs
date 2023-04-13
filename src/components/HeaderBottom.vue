@@ -12,7 +12,7 @@ export default {
 <template>
     <div class="jumbotron jumbotron-fluid h-100">
         <div class="container">
-            <div class="d-flex flex-wrap justify-content-center">
+            <div class="d-flex flex-wrap justify-content-center align-items-center">
                 <div class="intro">
                     <h1 class="display-4 text-white fw-bolder pt-4">UnlockYour Online <br>Growth Potential</h1>
                     <p class="lead text-white">This is a simple hero unit, a simple jumbotron-style component, <br> for
