@@ -62,6 +62,12 @@ export default {
 
     }
 
+    .my-button:hover {
+        background-color: transparent;
+        color: white;
+        border: 1px solid white;
+    }
+
     .contact-form {
         padding-top: 50px;
         position: relative;
