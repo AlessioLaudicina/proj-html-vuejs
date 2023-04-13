@@ -12,7 +12,7 @@ export default {
 
 <template>
     <div class="my-container">
-        <div class="d-flex  justify-content-center align-items-center">
+        <div class="d-flex  justify-content-center ">
             <div class="title">
                 <h1>Let's Make Things <br>Happen</h1>
                 <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> Sint eos porro quod recusandae
@@ -40,6 +40,14 @@ export default {
     color: white;
     margin: 0 auto;
     padding: 50px 0;
+
+    .title {
+        padding-right: 50px;
+    }
+
+    .my-form {
+        color: black;
+    }
 
 }
 </style>

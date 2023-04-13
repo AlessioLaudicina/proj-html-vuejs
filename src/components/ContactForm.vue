@@ -8,10 +8,11 @@ export default {
 <template>
     <div class="card rounded bg-white">
         <form class="d-flex flex-column justify-content-center align-items-center">
-            <h5 class="text-center">Richard Madsen</h5>
             <img src="../assets/images/marketing-consultant-expert.jpg" alt="marketing-img" class="rounded-circle profile">
+
+            <h5 class="text-center">Richard Madsen</h5>
             <span class="text-center">Marketing Expert</span>
-            <span class="text-center" style="color: #f76210;">
+            <span class="text-center my-4" style="color: #f76210;">
                 <fa icon="fa-solid fa-phone" />
                 (555) 802-1234
             </span>
@@ -47,8 +48,9 @@ export default {
     padding: 30px;
 
     .profile {
-        max-height: 50px;
-        max-width: 50px;
+        max-height: 60px;
+        max-width: 60px;
+        padding-bottom: 10px;
     }
 }
 </style>

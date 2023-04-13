@@ -50,6 +50,9 @@ export default {
     background-size: cover;
     min-height: 400px;
 
+    .intro {
+        padding-right: 50px;
+    }
 
     .my-button {
         background-color: $white-cube-color;
