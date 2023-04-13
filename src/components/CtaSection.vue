@@ -40,16 +40,29 @@ export default {
                         dolorum
                         eligendi officia reiciendis nostrum.</span>
                     <h3>Propriarty Process</h3>
-                    <span class="p-column">Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam consequuntur
+                    <span class="p-column">Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> Numquam
+                        consequuntur
                         dolorum
                         eligendi officia reiciendis nostrum.</span>
                 </div>
                 <div class="icon">
-                    <h4>Accountability</h4>
-                    <p class="p-column"> Numquam consequuntur dolorum eligendi officia reiciendis nostrum.</p>
+                    <ul>
+                        <li>
+                            <h4>Accountability</h4>
+                            <p class="p-column"> Numquam consequuntur dolorum eligendi.</p>
+                        </li>
+                        <li>
+                            <h4>Accountability</h4>
+                            <p class="p-column"> Numquam consequuntur dolorum eligendi.</p>
+                        </li>
+                        <li>
+                            <h4>Accountability</h4>
+                            <p class="p-column"> Numquam consequuntur dolorum eligendi.</p>
+                        </li>
+                    </ul>
 
-                    <h4>Accountability</h4>
-                    <p class="p-column"> Numquam consequuntur dolorum eligendi officia reiciendis nostrum.</p>
+
+
 
 
                 </div>
@@ -93,5 +106,4 @@ export default {
     padding-right: 30px;
 
 
-}
-</style>
+}</style>

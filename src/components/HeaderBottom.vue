@@ -12,19 +12,28 @@ export default {
 <template>
     <div class="jumbotron jumbotron-fluid h-100">
         <div class="container">
-            <h1 class="display-4 text-white fw-bolder pt-4">UnlockYour Online <br>Growth Potential</h1>
-            <p class="lead text-white">This is a simple hero unit, a simple jumbotron-style component, <br> for calling
-                extra
-                attention to
-                featured content or information.</p>
+            <div class="d-flex flex-wrap justify-content-center">
+                <div class="intro">
+                    <h1 class="display-4 text-white fw-bolder pt-4">UnlockYour Online <br>Growth Potential</h1>
+                    <p class="lead text-white">This is a simple hero unit, a simple jumbotron-style component, <br> for
+                        calling
+                        extra
+                        attention to
+                        featured content or information.</p>
 
 
-            <p class="lead">
-                <a class="btn  my-button" href="#" role="button">Our Services
-                    <fa icon="fa-solid fa-arrow-right" />
-                </a>
-            </p>
-            <ContactForm></ContactForm>
+                    <p class="lead">
+                        <a class="btn  my-button" href="#" role="button">Our Services
+                            <fa icon="fa-solid fa-arrow-right" />
+                        </a>
+                    </p>
+
+                </div>
+
+                <div class="contact-form">
+                    <ContactForm></ContactForm>
+                </div>
+            </div>
 
         </div>
 
@@ -41,12 +50,21 @@ export default {
     background-size: cover;
     min-height: 400px;
 
+
     .my-button {
         background-color: $white-cube-color;
         color: $black-cube-color;
         padding: 10px;
 
     }
+
+    .contact-form {
+        padding-top: 50px;
+        position: relative;
+        bottom: -60px;
+    }
+
+
 
 }
 </style>

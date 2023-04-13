@@ -42,7 +42,8 @@ export default {
 
 <style lang="scss" scooped>
 .card {
-    max-width: 450px;
+    width: 400px;
+
     padding: 30px;
 
     img {
