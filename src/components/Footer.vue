@@ -120,4 +120,12 @@ ul {
 
 
 }
+
+.icon {
+    font-size: 20px;
+}
+
+.icon:hover {
+    color: $ecstacy-cube-color;
+}
 </style>
