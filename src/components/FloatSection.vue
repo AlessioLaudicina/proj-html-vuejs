@@ -44,7 +44,7 @@ export default {
 
                 <div>
 
-                    <img src="../assets/images/Marketing-consulting-amico.png" alt="">
+                    <img src="../assets/images/Marketing-consulting-bro.png" alt="">
 
 
                 </div>
@@ -57,7 +57,7 @@ export default {
             <div class="section_container">
                 <div>
 
-                    <img src="../assets/images/Marketing-consulting-amico.png" alt="">
+                    <img src="../assets/images/Business-Plan-bro.png" alt="">
 
                 </div>
 
@@ -84,6 +84,7 @@ export default {
 <style lang="scss" scoped>
 @use '../styles/partials/variables';
 
+
 .section_container {
     display: flex;
     max-width: 1170px;
@@ -93,7 +94,9 @@ export default {
     flex-wrap: wrap;
 
     img {
-        max-width: 400px;
+        max-width: 500px;
+        height: 500px;
+
 
     }
 
@@ -103,6 +106,11 @@ export default {
         .p-column {
             color: black;
             line-height: 1.5em;
+
+        }
+
+        .orangeBtn {
+            width: 200px;
 
         }
     }

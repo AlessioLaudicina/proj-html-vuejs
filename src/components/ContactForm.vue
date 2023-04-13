@@ -36,6 +36,8 @@ export default {
             <!-- Submit button -->
             <button class="orangeBtn rounded">Get a Call Back</button>
 
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+
         </form>
 
     </div>
@@ -51,6 +53,13 @@ export default {
         max-height: 60px;
         max-width: 60px;
         padding-bottom: 10px;
+    }
+
+
+
+    p {
+        font-size: 10px;
+        padding-top: 10px;
     }
 }
 </style>

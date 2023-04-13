@@ -41,6 +41,11 @@ $starship-material-color: #ece046;
     color: white;
     border: none;
     padding: 10px;
-    max-width: 270px;
+    max-width: 300px;
     max-height: 44px;
+}
+
+.orangeBtn:hover {
+    background-color: $tango-material-color;
+
 }

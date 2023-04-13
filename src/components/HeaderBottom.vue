@@ -47,6 +47,7 @@ export default {
 
 .jumbotron {
     background-image: url(../assets/images/marketing-intro.jpg);
+
     background-size: cover;
     min-height: 400px;
 

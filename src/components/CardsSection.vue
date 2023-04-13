@@ -51,4 +51,8 @@ export default {
 
 <style lang="scss" scoped>
 @use '../styles/partials/variables' as *;
+
+.card-text {
+    font-size: 16px;
+}
 </style>

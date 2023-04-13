@@ -48,15 +48,17 @@ export default {
                 <div class="icon">
                     <ul>
                         <li>
-                            <h4>Accountability</h4>
+                            <h4>
+                                Accountability
+                            </h4>
                             <p class="p-column"> Numquam consequuntur dolorum eligendi.</p>
                         </li>
                         <li>
-                            <h4>Accountability</h4>
+                            <h4>Trasparency</h4>
                             <p class="p-column"> Numquam consequuntur dolorum eligendi.</p>
                         </li>
                         <li>
-                            <h4>Accountability</h4>
+                            <h4>Investment</h4>
                             <p class="p-column"> Numquam consequuntur dolorum eligendi.</p>
                         </li>
                     </ul>
@@ -106,4 +108,5 @@ export default {
     padding-right: 30px;
 
 
-}</style>
+}
+</style>
