@@ -8,7 +8,7 @@ export default {
 <template>
     <footer class="pt-5">
         <div class="container">
-            <div class="row">
+            <div class="row justify-content-end">
                 <div class="col-xl-3 col-lg-4 col-md-6">
                     <div>
                         <h5>Grown Your Online Business <br> Strategically, and Improve <br> Customer Retention. </h5>
@@ -43,7 +43,7 @@ export default {
                         </ul>
                     </div>
                 </div>
-                <div class="col-xl-3 col-lg-3 col-md-6">
+                <div class="col-xl-2 col-lg-2 col-md-6">
                     <div>
                         <h6>Resource</h6>
                         <ul class="list-unstyled">
