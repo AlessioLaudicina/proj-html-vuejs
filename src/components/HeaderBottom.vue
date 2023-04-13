@@ -1,6 +1,10 @@
 <script>
+import ContactForm from './ContactForm.vue';
 export default {
-    name: 'HeaderBottom'
+    name: 'HeaderBottom',
+    components: {
+        ContactForm
+    }
 }
 
 </script>
@@ -20,8 +24,11 @@ export default {
                     <fa icon="fa-solid fa-arrow-right" />
                 </a>
             </p>
+            <ContactForm></ContactForm>
 
         </div>
+
+
 
     </div>
 </template>

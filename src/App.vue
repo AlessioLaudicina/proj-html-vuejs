@@ -7,6 +7,7 @@ import CardsSection from './components/CardsSection.vue';
 import CtaSection from './components/CtaSection.vue';
 import TestimonialSection from './components/TestimonialSection.vue';
 import MarketingSection from './components/MarketingSection.vue';
+import ContactSection from './components/ContactSection.vue';
 import Footer from './components/Footer.vue';
 export default {
   name: 'App',
@@ -19,6 +20,7 @@ export default {
     CtaSection,
     TestimonialSection,
     MarketingSection,
+    ContactSection,
     Footer,
   }
 }
@@ -49,6 +51,7 @@ export default {
     <!-- marketing resources section -->
     <MarketingSection></MarketingSection>
     <!-- contact  section -->
+    <ContactSection></ContactSection>
 
   </main>
 
